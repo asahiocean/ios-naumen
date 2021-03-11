@@ -10,12 +10,14 @@
 		3DFC5D7325F9936100D73F43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC5D7225F9936100D73F43 /* AppDelegate.swift */; };
 		3DFC5D7525F9936100D73F43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC5D7425F9936100D73F43 /* SceneDelegate.swift */; };
 		3DFC5D7725F9936100D73F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC5D7625F9936100D73F43 /* ViewController.swift */; };
-		3DFC5D7A25F9936100D73F43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC5D7825F9936100D73F43 /* Main.storyboard */; };
 		3DFC5D7D25F9936100D73F43 /* Naumen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC5D7B25F9936100D73F43 /* Naumen.xcdatamodeld */; };
 		3DFC5D7F25F9936200D73F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC5D7E25F9936200D73F43 /* Assets.xcassets */; };
 		3DFC5D8225F9936200D73F43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFC5D8025F9936200D73F43 /* LaunchScreen.storyboard */; };
 		3DFC5D8D25F9936200D73F43 /* NaumenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC5D8C25F9936200D73F43 /* NaumenTests.swift */; };
 		3DFC5D9825F9936200D73F43 /* NaumenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC5D9725F9936200D73F43 /* NaumenUITests.swift */; };
+		3DFC5DC925F9968B00D73F43 /* UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC5DC825F9968B00D73F43 /* UIResponder.swift */; };
+		3DFC5DCA25F9968B00D73F43 /* UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC5DC825F9968B00D73F43 /* UIResponder.swift */; };
+		3DFC5DCB25F9968B00D73F43 /* UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC5DC825F9968B00D73F43 /* UIResponder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,6 @@
 		3DFC5D7225F9936100D73F43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DFC5D7425F9936100D73F43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3DFC5D7625F9936100D73F43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3DFC5D7925F9936100D73F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DFC5D7C25F9936100D73F43 /* Naumen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Naumen.xcdatamodel; sourceTree = "<group>"; };
 		3DFC5D7E25F9936200D73F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DFC5D8125F9936200D73F43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		3DFC5D9325F9936200D73F43 /* NaumenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaumenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFC5D9725F9936200D73F43 /* NaumenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaumenUITests.swift; sourceTree = "<group>"; };
 		3DFC5D9925F9936200D73F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFC5DC825F9968B00D73F43 /* UIResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResponder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +103,8 @@
 		3DFC5D7125F9936100D73F43 /* Naumen */ = {
 			isa = PBXGroup;
 			children = (
-				3DFC5D7225F9936100D73F43 /* AppDelegate.swift */,
-				3DFC5D7425F9936100D73F43 /* SceneDelegate.swift */,
-				3DFC5D7625F9936100D73F43 /* ViewController.swift */,
-				3DFC5D7825F9936100D73F43 /* Main.storyboard */,
-				3DFC5D7E25F9936200D73F43 /* Assets.xcassets */,
-				3DFC5D8025F9936200D73F43 /* LaunchScreen.storyboard */,
-				3DFC5D8325F9936200D73F43 /* Info.plist */,
-				3DFC5D7B25F9936100D73F43 /* Naumen.xcdatamodeld */,
+				3DFC5DB525F994C800D73F43 /* Main */,
+				3DFC5DB425F994B700D73F43 /* Root */,
 			);
 			path = Naumen;
 			sourceTree = "<group>";
@@ -129,6 +125,52 @@
 				3DFC5D9925F9936200D73F43 /* Info.plist */,
 			);
 			path = NaumenUITests;
+			sourceTree = "<group>";
+		};
+		3DFC5DB425F994B700D73F43 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC5DC725F9967600D73F43 /* Extensions */,
+				3DFC5D8325F9936200D73F43 /* Info.plist */,
+				3DFC5D7225F9936100D73F43 /* AppDelegate.swift */,
+				3DFC5D7425F9936100D73F43 /* SceneDelegate.swift */,
+				3DFC5D7E25F9936200D73F43 /* Assets.xcassets */,
+				3DFC5D7B25F9936100D73F43 /* Naumen.xcdatamodeld */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		3DFC5DB525F994C800D73F43 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC5DBA25F994E100D73F43 /* Storyboards */,
+				3DFC5DB625F994D500D73F43 /* Controllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3DFC5DB625F994D500D73F43 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC5D7625F9936100D73F43 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3DFC5DBA25F994E100D73F43 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC5D8025F9936200D73F43 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3DFC5DC725F9967600D73F43 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3DFC5DC825F9968B00D73F43 /* UIResponder.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +278,6 @@
 			files = (
 				3DFC5D8225F9936200D73F43 /* LaunchScreen.storyboard in Resources */,
 				3DFC5D7F25F9936200D73F43 /* Assets.xcassets in Resources */,
-				3DFC5D7A25F9936100D73F43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +305,7 @@
 				3DFC5D7725F9936100D73F43 /* ViewController.swift in Sources */,
 				3DFC5D7325F9936100D73F43 /* AppDelegate.swift in Sources */,
 				3DFC5D7525F9936100D73F43 /* SceneDelegate.swift in Sources */,
+				3DFC5DC925F9968B00D73F43 /* UIResponder.swift in Sources */,
 				3DFC5D7D25F9936100D73F43 /* Naumen.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DFC5DCA25F9968B00D73F43 /* UIResponder.swift in Sources */,
 				3DFC5D8D25F9936200D73F43 /* NaumenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DFC5DCB25F9968B00D73F43 /* UIResponder.swift in Sources */,
 				3DFC5D9825F9936200D73F43 /* NaumenUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3DFC5D7825F9936100D73F43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DFC5D7925F9936100D73F43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3DFC5D8025F9936200D73F43 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KXDT64LHVB;
-				INFOPLIST_FILE = Naumen/Info.plist;
+				INFOPLIST_FILE = Naumen/Root/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,7 +498,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KXDT64LHVB;
-				INFOPLIST_FILE = Naumen/Info.plist;
+				INFOPLIST_FILE = Naumen/Root/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
