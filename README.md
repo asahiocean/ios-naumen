@@ -1,4 +1,4 @@
-# Naumen
+<h2>Naumen<img src="https://tinyurl.com/79hss8hx" align="right"></h2>
 
 ![](https://media.giphy.com/media/KcPUeqstEawscdmrbM/giphy.gif)
 
